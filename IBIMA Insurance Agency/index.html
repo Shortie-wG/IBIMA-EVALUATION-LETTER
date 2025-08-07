@@ -1,149 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f7f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-    .container {
-      width: 80%;
-      background-color: #edf1f4;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      position: relative;
-    }
-    .header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #5a9e6b;
-    }
-    .header img {
-      max-height: 80px;
-      margin-right: 15px;
-    }
-    .header h1 {
-      color: #779dc6;
-      margin: 0;
-      font-size: 24px;
-    }
-    .header p {
-      color: #5d89b9;
-      margin: 5px 0 0;
-    }
-    .content {
-      padding: 20px 0;
-    }
-    .content h2 {
-      color: #405d7b;
-      border-bottom: 1px solid #28a745;
-      padding-bottom: 5px;
-      margin-top: 20px;
-    }
-    .content p {
-      color: #333;
-      line-height: 1.6;
-    }
-    .details {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .details div {
-      background-color: #e9f5ff;
-      padding: 15px;
-      border-left: 4px solid #295b90;
-      border-radius: 5px;
-    }
-    .details label {
-      font-weight: bold;
-      color: #3eac59;
-      display: block;
-      margin-bottom: 5px;
-    }
-    .details span {
-      color: #495057;
-    }
-    .footer {
-      text-align: center;
-      padding-top: 20px;
-      border-top: 1px solid #dee2e6;
-      color: #6c757d;
-      margin-top: 20px;
-    }
-
-    /* STAMP + SIGNATURE SECTION */
-    .stamp-signature {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-top: 40px;
-    }
-
-    .stamp-signature img {
-      max-width: 150px;
-      margin-bottom: 30px;
-    }
-
-    .signature {
-      font-family: 'Brush Script MT', cursive;
-      font-size: 20px;
-      color: #333;
-    }
-  </style>
+  <title>Motor Vehicle Evaluation Request</title>
 </head>
-<body>
-  <div class="container">
-    <div class="header">
-      <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754043014/logo2_rqysq2.png" />
+<body style="font-family: Arial, sans-serif; background-color: #f4f7f9; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+  <div style="width: 80%; background-color: #edf1f4; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: relative;">
+    <!-- Header -->
+    <div style="display: flex; align-items: center; justify-content: center; padding-bottom: 20px; border-bottom: 2px solid #5a9e6b;">
+      <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754043014/logo2_rqysq2.png" style="max-height: 80px; margin-right: 15px;" />
       <div>
-        <h1>iBima Insurance Agency</h1>
-        <p>Providing Comprehensive Insurance Solutions</p>
-      </div>
-    </div>
-    <div class="content">
-      <h2>Date: 2025-06-12</h2>
-      <h2>Subject: Request for Motor Vehicle Evaluation</h2>
-      <p>Dear Sir/Madam,</p>
-      <p>We kindly request you to carry out a motor vehicle evaluation for underwriting purposes on the following vehicle:</p>
-      <div class="details">
-        <div>
-          <label>Make:</label><span>Peugeot</span>
-          <label>Model:</label><span>Rangerover</span>
-          <label>Chassis Number:</label><span>KDA345T</span>
-          <label>Registration Number:</label><span>KDA345T</span>
-        </div>
-        <div>
-          <label>Owner's Name:</label><span>Simon Mwangi</span>
-          <label>Phone Number:</label><span>079222406</span>
-        </div>
-      </div>
-      <p>The evaluation is intended to determine the current market value and general condition of the vehicle as part of our underwriting requirements for motor insurance.</p>
-      <p>Please forward the completed evaluation report to our office or via email at <a href="mailto:inquiries@ingeniumct.com">inquiries@inforibima.com</a>. Should you require any additional information or clarification, feel free to contact us directly.</p>
-      <p>Thank you for your assistance and prompt attention to this matter.</p>
-
-      <!-- Stamp + Signature section -->
-      <div class="stamp-signature">
-        <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754561482/image__2_-removebg-preview_g06i76.png">
-        <div class="statement">Yours faithfully , </div>
-        <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754561396/image__1_-removebg-preview_nometq.png" alt="Stamp" />
-        <div class="signature">Simon Mwangi</div>
+        <h1 style="color: #779dc6; margin: 0; font-size: 24px;">iBima Insurance Agency</h1>
+        <p style="color: #5d89b9; margin: 5px 0 0;">Providing Comprehensive Insurance Solutions</p>
       </div>
     </div>
 
-    <div class="footer">
+    <!-- Content -->
+    <div style="padding: 20px 0;">
+      <h2 style="color: #405d7b; border-bottom: 1px solid #28a745; padding-bottom: 5px; margin-top: 20px;">Date: 2025-06-12</h2>
+      <h2 style="color: #405d7b; border-bottom: 1px solid #28a745; padding-bottom: 5px; margin-top: 20px;">Subject: Request for Motor Vehicle Evaluation</h2>
+      <p style="color: #333; line-height: 1.6;">Dear Sir/Madam,</p>
+      <p style="color: #333; line-height: 1.6;">We kindly request you to carry out a motor vehicle evaluation for underwriting purposes on the following vehicle:</p>
+
+      <!-- Vehicle Details -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+        <div style="background-color: #e9f5ff; padding: 15px; border-left: 4px solid #295b90; border-radius: 5px;">
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Make:</label><span style="color: #495057;">Peugeot</span><br/>
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Model:</label><span style="color: #495057;">Rangerover</span><br/>
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Chassis Number:</label><span style="color: #495057;">KDA345T</span><br/>
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Registration Number:</label><span style="color: #495057;">KDA345T</span>
+        </div>
+        <div style="background-color: #e9f5ff; padding: 15px; border-left: 4px solid #295b90; border-radius: 5px;">
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Owner's Name:</label><span style="color: #495057;">Simon Mwangi</span><br/>
+          <label style="font-weight: bold; color: #3eac59; display: block; margin-bottom: 5px;">Phone Number:</label><span style="color: #495057;">079222406</span>
+        </div>
+      </div>
+
+      <p style="color: #333; line-height: 1.6;">The evaluation is intended to determine the current market value and general condition of the vehicle as part of our underwriting requirements for motor insurance.</p>
+      <p style="color: #333; line-height: 1.6;">Please forward the completed evaluation report to our office or via email at <a href="mailto:inquiries@ingeniumct.com">inquiries@inforibima.com</a>. Should you require any additional information or clarification, feel free to contact us directly.</p>
+      <p style="color: #333; line-height: 1.6;">Thank you for your assistance and prompt attention to this matter.</p>
+
+      <!-- Stamp + Signature -->
+      <div style="display: flex; flex-direction: column; align-items: flex-start; margin-top: 40px;">
+        <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754561482/image__2_-removebg-preview_g06i76.png" style="max-width: 150px; margin-bottom: 30px;">
+        <div style="color: #333; margin-bottom: 10px;">Yours faithfully ,</div>
+        <img src="https://res.cloudinary.com/doifxgf1h/image/upload/v1754561396/image__1_-removebg-preview_nometq.png" alt="Stamp" style="max-width: 150px; margin-bottom: 10px;" />
+        <div style="font-family: 'Brush Script MT', cursive; font-size: 20px; color: #333;">Simon Mwangi</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; margin-top: 20px;">
       <p><a href="mailto:ibima@ingeniumct.com">ibima@inforibima.com</a></p>
     </div>
   </div>
